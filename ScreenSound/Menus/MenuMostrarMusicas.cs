@@ -12,7 +12,7 @@ internal class MenuMostrarMusicas : Menu
         string nomeDoArtista = Console.ReadLine()!;
         if (artistasRegistrados.ContainsKey(nomeDoArtista))
         {
-            Artista artista = artistasRegistrados[nomeDoArtista];
+            Artista artista = artistasRegistrados[nomeDoArtista]; // Acessando obj pela chave do dictionary
             Console.WriteLine("\nDiscografia:");
             artista.ExibirDiscografia();
             Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");

@@ -16,6 +16,7 @@ internal class Musica
       
     }
 
+    // Por padrão, quando você chama ToString() em um objeto, ele retorna o nome completo da classe. No entanto, ao sobrescrever (override) esse método, você define como os dados da sua classe devem ser exibidos.
     public override string ToString()
     {
         return @$"Id: {Id}
